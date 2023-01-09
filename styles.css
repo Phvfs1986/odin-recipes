@@ -1,0 +1,36 @@
+.header,
+.h2 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2 {
+    text-align: center;
+    font-size: 32px;
+}
+.list-container,
+.descriptor {
+    text-align: center;
+}
+ul,
+ol {
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+}
+.descriptor {
+    font-size: 24px;
+}
+.index-list {
+    font-size: 30px;
+}
+.clickity {
+    font-size: 24px;
+}
