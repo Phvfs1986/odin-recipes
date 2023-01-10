@@ -15,17 +15,19 @@
     text-align: center;
     font-size: 32px;
 }
-.list-container,
-.descriptor {
+.list-container{
     text-align: center;
 }
 ul,
 ol {
+    width: 900px;
+    margin: 0px;
     display: inline-block;
     text-align: left;
     font-size: 24px;
 }
 .descriptor {
+    text-align: center;
     font-size: 24px;
 }
 .index-list {
@@ -33,4 +35,9 @@ ol {
 }
 .clickity {
     font-size: 24px;
+}
+.box {
+    display: inline-block;
+    text-align: left;
+    width: auto;
 }
