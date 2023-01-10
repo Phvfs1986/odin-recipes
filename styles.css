@@ -1,7 +1,6 @@
 body {
     background-color: whitesmoke;
 }
-
 .header,
 .h2 {
     background-color: black;
@@ -24,13 +23,22 @@ body {
 }
 ul,
 ol {
+    font-size: 28px;
+    list-style: square;
     width: 900px;
     margin: -20px;
     display: inline-block;
     text-align: left;
-    font-size: 24px;
+}
+ol {
+    list-style: decimal;
+}
+li::marker {
+    font-weight: bolder;
 }
 .descriptor {
+    display: inline-block;
+    text-align: left;
     font-size: 28px;
 }
 .index-list {
@@ -38,9 +46,4 @@ ol {
 }
 .clickity {
     font-size: 24px;
-}
-.box {
-    display: inline-block;
-    text-align: left;
-    width: auto;
 }
