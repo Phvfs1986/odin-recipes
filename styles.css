@@ -1,34 +1,32 @@
 body {
     background-color: whitesmoke;
 }
-div {
-    max-width: 900px;
-    margin: 0 auto;
-}
-.header,
-.h2 {
+.flex-item{
     background-color: black;
     color: white;
     font-weight: bold;
     text-align: center;
     font-size: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 16px;
 }
 .center-img {
     display: block;
+    margin: 16px;
     margin-left: auto;
     margin-right: auto;
 }
 .list-container{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 ul,
 ol {
+    display: flex;
+    flex-direction: column;
     font-size: 28px;
     list-style: square;
-    margin: -20px;
-    display: inline-block;
-    text-align: left;
-    max-width: 850px;
 }
 ol {
     list-style: decimal;
@@ -36,17 +34,33 @@ ol {
 li::marker {
     font-weight: bolder;
 }
-.descriptor {
-    display: inline-block;
-    text-align: left;
-    font-size: 28px;
-}
-.index-list {
-    font-size: 30px;
-}
 .clickity {
-    display: block;
-    text-align: center;
-    width: 200px;
     font-size: 24px;
+    padding: 16px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.flex-contents {
+    display: flex;
+    margin-top: -18px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    padding: 36px;
+    border: 6px solid black;
+}
+a:link,
+a:visited {
+    color: black;
+}
+a:hover,
+a:active {
+    color: blue;
+    font-size: 130%;
+}
+.flex-index {
+    display: block;
+    width: 650px;
+    justify-content: center;
 }
